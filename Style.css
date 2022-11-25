@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.maincont {
+    width: 400px;
+    height: 550px;
+    background: rgb(94, 86, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.card {
+    width: 250px;
+    height: 500px;
+    background: rgb(253, 248, 248);
+    border-radius: 20px;
+}
+
+.cont {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article {
+    display: flex;
+}
+
+section {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.btn1 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.btn2 {
+    font-size: 1.6em;
+    margin-top: 10px;
+}
+
+.btn1:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.btn2:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+main h2 {
+    margin-top: 20px;
+}
+
+main p {
+    color: orange;
+}
+
+.action {
+    width: 200px;
+    height: 100px;
+    background: rgb(185, 185, 185);
+    padding: 5px;
+    margin-left: -5px;
+    border-radius: 10px;
+}
+
+section .action img {
+    width: 100%;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+section .action .button {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    background: #000;
+    color: white;
+    border-radius: 10px;
+    margin-top: -70px;
+}
+
+.Shop {
+    margin-left: 10px;
+}
+
+section .action h5 {
+    color: gray;
+}
+
+.button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 0.6em;
+}
+
+.li1 {
+    color: orange;
+}
+
+.li {
+    margin-left: 10px;
+}
+
+.h3-cont {
+    display: flex;
+    margin-left: -15px;
+}
+
+.p-cont {
+    display: flex;
+    margin-left: -15px;
+}
+
+.h3i1 {
+    margin-left: 10px;
+    color: gray;
+}
+
+.pg1 {
+    color: orange;
+}
+
+.pi1 {
+    margin-left: 25px;
+    color: gray;
+}
+
+.Shop1 {
+    width: 100px;
+    height: 150px;
+    background: rgb(201, 201, 201);
+    margin-left: -10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Shop2 {
+    width: 100px;
+    height: 150px;
+    background: rgb(201, 201, 201);
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Shop-container {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    background: rgb(255, 255, 255);
+    margin-top: 180px;
+    margin-left: -210px;
+}
+
+.Shop1 img {
+    width: 100%;
+    margin-top: -5px;
+}
+
+.Shop2 img {
+    width: 100%;
+    margin-top: -5px;
+}
+
+.Shop1 iconify-icon {
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.Shop2 iconify-icon {
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.Shop1 iconify-icon:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.price1i1 {
+    margin-top: 5px;
+}
+
+.price1i2 {
+    margin-top: -20px;
+}
+
+.red1-color {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 2px;
+}
+
+.orange1-color {
+    width: 10px;
+    height: 10px;
+    background: orange;
+    border-radius: 2px;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.name1 {
+    width: 100px;
+}
+
+.Homeicon {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.Searchicon {
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+.Hearticon {
+    font-size: 1.5em;
+    margin-top: -px;
+}
